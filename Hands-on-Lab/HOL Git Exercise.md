@@ -64,6 +64,8 @@ Mar 2021
 
 ## Exercise 1 内容
 
+<img width="100" src="images-exercise/gitExercise-01-01.png" />
+
 - ローカルリポジトリは C:\gitroot フォルダ配下に作成してください。
   - ローカルリポジトリ名は firstRepo としてください。
 - main ブランチに Commit を２つ作ってください。
@@ -278,6 +280,8 @@ Mar 2021
 
 ## Exercise 6 内容
 
+<img width="270" src="images-exercise/gitExercise-06-01.png" />
+
 - リモートリポジトリは C:\gitroot フォルダ配下に作成してください。
   - リモートリポジトリ名は remoteRepo.git としてください。
   - bare リポジトリとして remoteRepo.git を初期化してください。
@@ -289,7 +293,7 @@ Mar 2021
   - ローカルリポジトリとリモートリポジトリを紐づけてください。
     - リモート名は origin としてください。
 
-- 紐づけを確認するためにローカルリポジトリで Commit した結果を **Push** してリモートと同期してください。
+- 紐づけを確認するために「ローカルリポジトリ」で Commit した結果を **Push** してリモートと同期してください。
   - 最初の Commit は空の Commit を入れてください。
     - Commit メッセージは以下にしてください。
 
@@ -325,6 +329,8 @@ Mar 2021
 
 ## Exercise 7 内容
 
+<img width="500" src="images-exercise/gitExercise-07-01.png" />
+
 - Clone で 新しくローカルリポジトリを作成してください。
   - C:\gitroot 配下に ClonedRepos というフォルダを作り、ClonedRepos 内部に Exercise 6 で作成したリモートリポジトリを Clone してください。
   - Clone したら作成されたフォルダを VS Code で開き直してください。
@@ -339,7 +345,7 @@ Mar 2021
     This second line was added in clonedRepo
     ```
 
-- Exercise 6 のローカルリポジトリで origin/BranchD が存在することを確認したら BranchD を Checkout して編集可能な状態にしてください。
+- Exercise 6 のローカルリポジトリ（localRepo1）で origin/BranchD が存在することを確認したら BranchD を Checkout して編集可能な状態にしてください。
 
 ## Exercise 7 達成条件
 
@@ -360,6 +366,8 @@ Mar 2021
 # **Exercise 8 - Commit を Revert して Push する**
 
 ## Exercise 8 内容
+
+<img width="500" src="images-exercise/gitExercise-08-01.png" />
 
 - localRepo1 の BranchD にて Commit して Push してください。
   - file4.txt を次の内容に編集して Commit, Push してください。
@@ -392,38 +400,39 @@ Mar 2021
 
 ## Exercise 9 内容
 
+<img width="100" src="images-exercise/gitExercise-09-01.png" />
+
 - 新しくローカルリポジトリを作成してください。
   - ローカルリポジトリは C:\gitroot フォルダ配下に作成してください。
     - ローカルリポジトリ名は secondRepo としてください。
   - Commit を３つ作ってください。
-  - main の1つ目の Commit は空 Commit にしてください。
-    - Commit メッセージは以下にしてください。
+    - main の1つ目の Commit は空 Commit にしてください。
+      - Commit メッセージは以下にしてください。
 
-      ```text
-      first commit
-      ```
+        ```text
+        first commit
+        ```
+    - 2つ目の Commit について
+      - main ブランチで作業してください。
+      - 新しくファイルを作成してください。
+      - 作成するファイル名は file5.txt としてください。
+      - file5.txt は以下の内容で Commit してください。
 
-- 2つ目の Commit について
-  - main ブランチで作業してください。
-  - 新しくファイルを作成してください。
-  - 作成するファイル名は file5.txt としてください。
-  - file5.txt は以下の内容で Commit してください。
+        ```text
+        This first line is in file5
+        ```
 
-    ```text
-    This first line is in file5
-    ```
+    - 2つ目の Commit から Branch を切ってください。
+      - Branch 名は BranchE です。
 
-- 2つ目の Commit から Branch を切ってください。
-  - Branch 名は BranchE です。
+    - 3つ目の Commit について
+      - BranchE で 作業してください。
+      - file5.txt を以下の内容に編集して Commit してください。
 
-- 3つ目の Commit について
-  - BranchE で 作業してください。
-  - file5.txt を以下の内容に編集して Commit してください。
-
-    ```text
-    This first line is in file5
-    This second line is in BranchE
-    ```
+        ```text
+        This first line is in file5
+        This second line is in BranchE
+        ```
 
 - 3つ目の Commit を reset で削除してください。
 - ただし、Workspace に file5.txt の編集結果は残った状態にしてください。
@@ -507,35 +516,37 @@ Mar 2021
 
 ## Exercise 11 内容
 
+<img width="100" src="images-exercise/gitExercise-11-01.png" />
+
 - 新しくローカルリポジトリを作成してください。
   - ローカルリポジトリは C:\gitroot フォルダ配下に作成してください。
     - ローカルリポジトリ名は thirdRepo としてください。
   - Commit を３つ作ってください。
-  - main の1つ目の Commit は空 Commit にしてください。
-    - Commit メッセージは以下にしてください。
+    - main の1つ目の Commit は空 Commit にしてください。
+      - Commit メッセージは以下にしてください。
 
-      ```text
-      first commit
-      ```
+        ```text
+        first commit
+        ```
 
-- 2つ目の Commit について
-  - main ブランチで作業してください。
-  - 新しくファイルを作成してください。
-  - 作成するファイル名は file6.txt としてください。
-  - file6.txt は以下の内容で Commit してください。
+    - 2つ目の Commit について
+      - main ブランチで作業してください。
+      - 新しくファイルを作成してください。
+      - 作成するファイル名は file6.txt としてください。
+      - file6.txt は以下の内容で Commit してください。
 
-    ```text
-    This is the first line
-    ```
+        ```text
+        This is the first line
+        ```
 
-- 3つ目の Commit について
-  - main ブランチで作業してください。
-  - file6.txt を以下の内容で Commit してください。
+    - 3つ目の Commit について
+      - main ブランチで作業してください。
+      - file6.txt を以下の内容で Commit してください。
 
-    ```text
-    This is the first line
-    This is the second line
-    ```
+        ```text
+        This is the first line
+        This is the second line
+        ```
 
 - **Commit が3つできていることをコーチに確認してもらってから先へ進んでください**
 

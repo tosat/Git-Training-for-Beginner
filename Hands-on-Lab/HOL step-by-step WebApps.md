@@ -81,6 +81,9 @@ Feb 2021
     - 拡張機能：C# for Visual Studio Code  
       <https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp>
 
+  - .NET Core 3.1 SDK のインストール  
+    <https://dotnet.microsoft.com/download/dotnet/3.1>
+
   - Git のインストール  
     <https://git-scm.com/>
 
@@ -679,7 +682,7 @@ Feb 2021
 
 <br />
 
-[次の手順へ](#Pull-Request-の作成、マージ～アプリケーションの展開)
+[次の手順へ](#Pull-Request-の作成)
 
 <br />
 
@@ -703,7 +706,7 @@ Feb 2021
 
 <br />
 
-[次の手順へ](#Pull-Request-の作成、マージ～アプリケーションの展開)
+[次の手順へ](#Pull-Request-の作成)
 
 <br />
 
