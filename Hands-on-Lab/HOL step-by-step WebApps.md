@@ -769,7 +769,7 @@ Feb 2021
 
     <img src="images/web-apps-application-configuration-02.png" />
 
-- 設定がつい枯れていることを確認し "**保存**" をクリック  
+- 設定が追加されていることを確認し "**保存**" をクリック  
 
     <img src="images/web-apps-application-configuration-03.png" />
 
